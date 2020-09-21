@@ -1,5 +1,7 @@
 # Stealth-UX
 
+![Stealth-UX](https://i.imgur.com/IKXD3Qg.png)
+
 Stealth-UX is a dark visual suite that transforms your GalliumOS 3.1 desktop environment. Sources include:
 * **Terminal**: [kuangyujing / dracula-xfce4-terminal](https://github.com/kuangyujing/dracula-xfce4-terminal)
 * **Icons**: [PapirusDevelopmentTeam / papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
@@ -178,8 +180,6 @@ Let's complete the entire look with a few more steps:
 
 ### VIM
 
-![Javascript VIM](https://draculatheme.com/static/img/screenshots/vim.png)
-
 1. Create theme folder:
 
         mkdir -p ~/.vim/pack/themes/start
@@ -203,6 +203,8 @@ Let's complete the entire look with a few more steps:
         colorscheme dracula
 
 ### VIM Javascript Plugin
+
+![Javascript VIM](https://draculatheme.com/static/img/screenshots/vim.png)
 
 1. Run the following command
 
