@@ -134,13 +134,84 @@ Let's continue to changing the style of the window bars:
 
         source ~/.bashrc
 
-24. Right-click your terminal > Preferences
+24. Close and reopen your terminal to see changes
 
-25. Under Appearance Tab > Uncheck "Use System Font" > and select a Powerline font such as "Source Code Pro for Powerline"
+25. Right-click your terminal > Preferences
 
-26. Everything should look good now!
+26. Under Appearance Tab > Uncheck "Use System Font" > and select a Powerline font such as "Source Code Pro for Powerline"
+
+27. Everything should look good now!
 
 ## Bonus Settings
 
 Let's complete the entire look with a few more steps:
 
+### Chromium
+
+1. Open Chromium
+
+2. Go to: `chrome://settings/`
+
+3. Find "Themes" under "Appearance" > Click "Use GTK+"
+
+### Main Taskbar
+
+1. Right-click taskbar
+
+2. Panel > Panel Preferences...
+
+3. Go to Appearance Tab
+
+4. Select None under Style:
+
+5. Reduce Alpha to 0
+
+6. Go to Items and edit as you please, here's a suggestion:
+
+![Panel Preferences](https://i.imgur.com/Rrwejj2.png)
+
+### Hide the windows toolbar 
+
+1. Open "File Manager" 
+
+2. Ctrl + M
+
+### VIM
+
+![Javascript VIM](https://draculatheme.com/static/img/screenshots/vim.png)
+
+1. Create theme folder:
+
+        mkdir -p ~/.vim/pack/themes/start
+
+2. Change directories:
+
+        cd ~/.vim/pack/themes/start
+
+3. Clone the target repo:
+
+        git clone https://github.com/dracula/vim.git dracula
+
+4. Create config file:
+
+        touch ~/.vimrc
+
+5. Add the following to \~/.vimrc
+
+        packadd! dracula
+        syntax enable
+        colorscheme dracula
+
+### VIM Javascript Plugin
+
+1. Run the following command
+
+          git clone https://github.com/pangloss/vim-javascript.git ~/.vim/pack/vim-javascript/start/vim-javascript
+
+2. Close and reopen VIM to see changes
+
+### Wallpaper
+
+1. Right-click desktop > Desktop Settings...
+
+2. Select stealth_ux_wallpaper.jpg inside \~/stealth_ux
