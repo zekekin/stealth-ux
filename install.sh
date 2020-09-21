@@ -21,7 +21,7 @@ rm -rf "${PWD}/Dracula/"
 
 #Icons
 sudo mkdir -p "${HOME}/.icons/"
-sudo cp -r "${PWD}/icons-papirus/Papirus-Dark/" "${HOME}/.icons"
+sudo cp -r "${PWD}/Papirus-Dark/" "${HOME}/.icons"
 
 #Bash and Powerline
 sudo cp -r "${PWD}/omb-stealth-ux/" "${PWD}/.oh-my-bash/"
