@@ -3,8 +3,8 @@
 Stealth-UX is a dark visual suite that transforms your GalliumOS 3.1 desktop environment. Sources include:
 * **Terminal**: [kuangyujing / dracula-xfce4-terminal](https://github.com/kuangyujing/dracula-xfce4-terminal)
 * **Icons**: [PapirusDevelopmentTeam / papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
-* **Powerline/Bash**: [ohmybash/oh-my-bash](https://github.com/ohmybash/oh-my-bash)
-* **GTK**: [dracula/gtk](https://github.com/dracula/gtk)
+* **Powerline/Bash**: [ohmybash / oh-my-bash](https://github.com/ohmybash/oh-my-bash)
+* **GTK**: [dracula / gtk](https://github.com/dracula/gtk)
 
 ## Install
 
@@ -107,3 +107,40 @@ Let's continue to changing the style of the window bars:
   - Tile window to right: Alt + \]
   - Maximize window: Alt + =
   - Minimize window: Alt + -
+
+## Terminal Settings
+
+14. Open your terminal
+
+15. Right click > Preferences > Colors Tab
+
+16. Click "Load Presets..."
+
+17. Select "Dracula"
+
+18. Close Preferences
+
+19. Open and edit \~/.bashrc file
+
+20. You'll see an environment variable (all caps) in there that looks like:
+
+        OSH_THEME="font"
+        
+21. Change the value of OSH_THEME to powerline: `OSH_THEME="powerline"`
+
+22. Save and exit .bashrc
+
+23. Reload .bashrc:
+
+        source ~/.bashrc
+
+24. Right-click your terminal > Preferences
+
+25. Under Appearance Tab > Uncheck "Use System Font" > and select a Powerline font such as "Source Code Pro for Powerline"
+
+26. Everything should look good now!
+
+## Bonus Settings
+
+Let's complete the entire look with a few more steps:
+
