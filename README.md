@@ -93,7 +93,7 @@ Let's continue to changing the style of the window bars:
 
 12. Go into Start Menu, search for and open "Window Manager" (under "Settings")
 
-13. Here you have two choices, you can choose between "no-border" or "Dracula".
+13. Choose between "no-border" or "Dracula" or "dracula-compact".
 
 *no-border removes the Title Bar for a sleek look*
 

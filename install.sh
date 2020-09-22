@@ -33,4 +33,9 @@ sudo rm -rf "${PWD}/.oh-my-bash/"
 #wallpaper
 sudo cp "${PWD}/stealth_ux_wallpaper.jpg" "/usr/share/xfce4/backdrops/"
 
+#dracula-compact
+DCDIR=$HOME/.local/share/themes/
+sudo cp -r "${PWD}/dracula-compact/" $DCDIR
+
+
 echo Done!
