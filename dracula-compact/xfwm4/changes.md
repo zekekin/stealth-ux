@@ -1,6 +1,6 @@
 ## How I made the Dracula-compact theme
 
-Copy these corresponding files from greybird-compact dir: /usr/share/themes/Greybird-compact/xfwm4:
+#### Copy these corresponding files from greybird-compact dir: /usr/share/themes/Greybird-compact/xfwm4:
 - title-1-active.xpm
 - top-left-active.xpm
 - top-right-active.xpm
@@ -9,16 +9,16 @@ Copy these corresponding files from greybird-compact dir: /usr/share/themes/Grey
 
 By using greybird-compact masks, I effectively change the height of the menu bar in the Dracula theme
 
-Then:
+#### Next, I symlinked the appropriate files:
 - symlinked title-1-active.xpm to title-2-active.xpm through title-5-active.xpm, 
 - symlinked top-left-active.xpm to top-left-inactive.xpm, etc
 - symlinked top-right-active.xpm to top-right-inactive.xpm, etc
 
-Then installed imagemagick:
+#### Then installed imagemagick:
 
     sudo apt-get install imagemagick
 
-Then converted UX images for the menu bar:
+#### Then converted UX images for the menu bar:
 
     sudo convert close-active.png -alpha on -resize 70% close-active.png
 
