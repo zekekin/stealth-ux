@@ -1,4 +1,4 @@
-## How I made this theme compact
+## How I made the Dracula-compact theme
 
 Copy these corresponding files from greybird-compact dir: /usr/share/themes/Greybird-compact/xfwm4:
 - title-1-active.xpm
