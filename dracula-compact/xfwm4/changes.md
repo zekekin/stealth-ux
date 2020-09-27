@@ -1,6 +1,6 @@
 ## How I made this theme compact
 
-copied corresponding files from greybird-compact dir, including:
+Copy these corresponding files from greybird-compact dir: /usr/share/themes/Greybird-compact/xfwm4:
 - title-1-active.xpm
 - top-left-active.xpm
 - top-right-active.xpm
