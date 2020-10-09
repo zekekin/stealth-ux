@@ -8,7 +8,7 @@ Stealth-UX is a dark visual suite that transforms your GalliumOS 3.1 desktop env
 * **Powerline/Bash**: [ohmybash / oh-my-bash](https://github.com/ohmybash/oh-my-bash)
 * **GTK**: [dracula / gtk](https://github.com/dracula/gtk)
 
-**Need help? Here's the ![Reddit Communtity Thread:](https://www.reddit.com/r/GalliumOS/comments/ixbdmx/stealthux_a_dark_visual_suite_for_galliumos/)
+**Need help? Here's the [Reddit Communtity Thread:](https://www.reddit.com/r/GalliumOS/comments/ixbdmx/stealthux_a_dark_visual_suite_for_galliumos/)
 
 ## Install
 
