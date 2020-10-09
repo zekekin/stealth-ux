@@ -20,8 +20,7 @@ sudo cp -r "Dracula/xfwm4/" $WMDRAC
 rm -rf "${PWD}/Dracula/"
 
 #Icons
-sudo mkdir -p "${HOME}/.icons/"
-sudo cp -r "${PWD}/Papirus-Dark/" "${HOME}/.icons"
+wget -qO- https://git.io/papirus-icon-theme-install | DESTDIR="$HOME/.icons" sh
 
 #Bash and Powerline
 sudo cp -r "${PWD}/omb-stealth-ux/" "${PWD}/.oh-my-bash/"
