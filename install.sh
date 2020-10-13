@@ -36,5 +36,8 @@ sudo cp "${PWD}/stealth_ux_wallpaper.jpg" "/usr/share/xfce4/backdrops/"
 DCDIR=$HOME/.local/share/themes/
 sudo cp -r "${PWD}/dracula-compact/" $DCDIR
 
+#change permission bits
+sudo chmod u=rwx,g=rwx ~/.oh-my-bash
+sudo chmod -R u=rwx,g=rwx ~/.icons
 
 echo Done!
