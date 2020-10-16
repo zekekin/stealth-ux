@@ -4,6 +4,6 @@
 
 		bash ./magicwand.sh 11,11 -t 45.3 -f image -r outside -c BlueViolet ~/.local/share/themes/dracula-compact-neon/xfwm4/close-active.png ~/.local/share/themes/dracula-compact-neon/xfwm4/close-active.png
 
-BlueViolet is one of many ImageMagick's color codes (we also used turquoise2 and magenta1)
+LightSlateBlue is one of many ImageMagick's color codes (we also used turquoise2 and magenta1)
 
 https://imagemagick.org/script/color.php
