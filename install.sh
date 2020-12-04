@@ -40,7 +40,7 @@ sudo cp -r "${PWD}/dracula-compact-neon/" $DCDIR
 
 
 #change permission bits
-sudo chmod u=rwx,g=rwx ~/.oh-my-bash
-sudo chmod -R u=rwx,g=rwx ~/.icons
+sudo chmod -R u=rwx,g=rwx,o=rwx ~/.oh-my-bash
+sudo chmod -R u=rwx,g=rwx,o=rwx ~/.icons
 
 echo Done!
