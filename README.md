@@ -22,11 +22,9 @@ Stealth-UX is a dark visual suite that transforms your GalliumOS 3.1 desktop env
     
 3. Run the install script:
 
-        bash install.sh
+        sudo bash install.sh
 
-*Note: sudo password will be required to complete the installation*
-
-*Note: a backup of your current \~/.bashrc will be made for you (~/.bashrc.obs_backup)*
+*Note: Your current ~/.bashrc will backed up as ~/.bashrc.obs_backup*
 
 ## Configure
 
