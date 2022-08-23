@@ -2,11 +2,7 @@
 
 ![Stealth-UX](https://i.imgur.com/IKXD3Qg.png)
 
-Stealth-UX is a dark visual suite that transforms your GalliumOS 3.1 desktop environment. Sources include:
-* **Terminal**: [kuangyujing / dracula-xfce4-terminal](https://github.com/kuangyujing/dracula-xfce4-terminal)
-* **Icons**: [PapirusDevelopmentTeam / papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
-* **Powerline/Bash**: [ohmybash / oh-my-bash](https://github.com/ohmybash/oh-my-bash)
-* **GTK**: [dracula / gtk](https://github.com/dracula/gtk)
+Stealth-UX is a dark visual suite that transforms your GalliumOS 3.1 desktop environment.
 
 **Need help?** Here's the [Reddit Communtity Thread](https://www.reddit.com/r/GalliumOS/comments/ixbdmx/stealthux_a_dark_visual_suite_for_galliumos/)
 
@@ -15,20 +11,16 @@ Stealth-UX is a dark visual suite that transforms your GalliumOS 3.1 desktop env
 1. Clone this repo:
 
         git clone https://github.com/ctklainow/stealth-ux.git ~/stealth-ux/
-
-2. Change into stealth-ux directory:
-
-        cd ~/stealth-ux
     
-3. Run the install script:
+3. Install:
 
-        sudo bash install.sh
+        sudo bash ~/stealth-ux/install.sh
 
 *Note: Your current ~/.bashrc will backed up as ~/.bashrc.obs_backup*
 
 ## Configure
 
-After installation is done, let's start changing the desktop settings.
+After installation is done, follow the steps below to configure the desktop settings.
 
 ## Appearance Settings
 
@@ -89,7 +81,7 @@ After installation is done, let's start changing the desktop settings.
 
 ## Windows Manager Settings
 
-Let's continue to changing the style of the window bars:
+Change the style of the window bars:
 
 12. Go into Start Menu, search for and open "Window Manager" (under "Settings")
 
@@ -146,7 +138,7 @@ Let's continue to changing the style of the window bars:
 
 ## Bonus Settings
 
-Let's complete the entire look with a few more steps:
+Complete the entire look with a few more steps:
 
 ### Chromium
 
