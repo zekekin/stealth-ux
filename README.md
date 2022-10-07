@@ -67,9 +67,6 @@ https://forum.xfce.org/viewtopic.php?id=9312
     for name in `find . -maxdepth 1 -type f -name "*.xpm"`; do convert "$name" -alpha on -scale 200% $name; done
     for name in `find . -maxdepth 1 -type f -name "*.png"`; do convert "$name" -alpha on -resize 200% $name; done
 
-
-### From forum post
-
 1. In the folder /usr/share/themes create a new theme 'mytheme' by copying the theme 'Mint-X'
 2. Install imagemagick (sudo apt-get install imagemagick) to get the linux command convert
 3. Go to folder /usr/share/themes/mytheme/xfwm4
