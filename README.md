@@ -29,7 +29,7 @@ Skip to [Configure Section](#configure)
 
 (think of .xpm as ASCII masks, layered on top of .png files with the same name)
 
-By using greybird-compact masks, you can change the height of the menu bar in the Dracula theme
+By using greybird-compact masks, you can change the height of the menu bar in any GTK theme
 
 #### Next, symlink the appropriate files:
 - symlinked title-1-active.xpm to title-2-active.xpm through title-5-active.xpm, 
