@@ -67,17 +67,18 @@ https://forum.xfce.org/viewtopic.php?id=9312
     for name in `find . -maxdepth 1 -type f -name "*.xpm"`; do convert "$name" -alpha on -scale 200% $name; done
     for name in `find . -maxdepth 1 -type f -name "*.png"`; do convert "$name" -alpha on -resize 200% $name; done
 
-1. In the folder /usr/share/themes create a new theme 'mytheme' by copying the theme 'Mint-X'
-2. Install imagemagick (sudo apt-get install imagemagick) to get the linux command convert
-3. Go to folder /usr/share/themes/mytheme/xfwm4
-4. Modify title* and top* files with convert command as suggested by sixsixfive with scale 200%
-5. Modify close*, hide* and maximize* files with convert command with scale 150%
-6. Modify file /usr/share/themes/mytheme/xfwm4/themerc with following options :
-             button_offset=15
-             button_spacing=2
-             maximized_offset=10
-7. Go to Parameters --> Window manager (I am not sure about the english name as I am using french version) and change the theme to 'mytheme'; I also changed the font of the title to 20.
-8. Change the color of the close* images to red using Gimp.
+
+    1. In the folder /usr/share/themes create a new theme 'mytheme' by copying the theme 'Mint-X'
+    2. Install imagemagick (sudo apt-get install imagemagick) to get the linux command convert
+    3. Go to folder /usr/share/themes/mytheme/xfwm4
+    4. Modify title* and top* files with convert command as suggested by sixsixfive with scale 200%
+    5. Modify close*, hide* and maximize* files with convert command with scale 150%
+    6. Modify file /usr/share/themes/mytheme/xfwm4/themerc with following options :
+                 button_offset=15
+                 button_spacing=2
+                 maximized_offset=10
+    7. Go to Parameters --> Window manager (I am not sure about the english name as I am using french version) and change the theme to 'mytheme'; I also changed the font of the title to 20.
+    8. Change the color of the close* images to red using Gimp.
 
 
 <h2 id="configure">Configure</h2>
