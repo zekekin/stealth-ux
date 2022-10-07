@@ -20,6 +20,8 @@ Stealth-UX is a dark visual suite that transforms your GalliumOS 3.1 desktop env
 
 ## How to mod stealth-ux (Optional):
 
+Skip to Configure Section(#configure)
+
 #### Copy these corresponding files from greybird-compact dir: /usr/share/themes/Greybird-compact/xfwm4:
 - title-1-active.xpm
 - top-left-active.xpm
@@ -81,7 +83,7 @@ https://forum.xfce.org/viewtopic.php?id=9312
 8. Change the color of the close* images to red using Gimp.
 
 
-## Configure
+<h2 id="configure">Configure</h2>
 
 After installation is done, follow the steps below to configure the desktop settings.
 
