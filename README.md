@@ -18,7 +18,7 @@ Stealth-UX is a dark visual suite that transforms your GalliumOS 3.1 desktop env
 
 *Note: Your current ~/.bashrc will backed up as ~/.bashrc.obs_backup*
 
-## Breakdown for modding GTK themes:
+## DIY mod stealth-ux (Optional - skip to Configure section if not interested):
 
 #### Copy these corresponding files from greybird-compact dir: /usr/share/themes/Greybird-compact/xfwm4:
 - title-1-active.xpm
@@ -55,7 +55,7 @@ Run convert on all title bar buttons:
 - maximize-inactive...etc
 
 
-### References
+### Reference for XFCE icons
 
 https://forum.xfce.org/viewtopic.php?id=9312
 
@@ -78,7 +78,7 @@ https://forum.xfce.org/viewtopic.php?id=9312
              button_spacing=2
              maximized_offset=10
 7. Go to Parameters --> Window manager (I am not sure about the english name as I am using french version) and change the theme to 'mytheme'; I also changed the font of the title to 20.
-8. I also changed the color of the close* images to red using Gimp.
+8. Change the color of the close* images to red using Gimp.
 
 
 ## Configure
