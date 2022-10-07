@@ -20,7 +20,7 @@ Stealth-UX is a dark visual suite that transforms your GalliumOS 3.1 desktop env
 
 ## How to mod stealth-ux (Optional):
 
-Skip to Configure Section(#configure)
+Skip to [Configure Section](#configure)
 
 #### Copy these corresponding files from greybird-compact dir: /usr/share/themes/Greybird-compact/xfwm4:
 - title-1-active.xpm
